@@ -1,5 +1,5 @@
 Project: SimpleProxy
-Author: Nolan Caudill
+Author: Nolan Caudill <nolan@nolancaudill.com>
 Date: 2010/11/24
 
 This is a simple HTTP proxy written in PHP. There are a few variables
