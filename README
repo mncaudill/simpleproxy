@@ -1,0 +1,14 @@
+Project: SimpleProxy
+Author: Nolan Caudill
+Date: 2010/11/24
+
+This is a simple HTTP proxy written in PHP. There are a few variables
+that you will want to redeclare (like the referrer sniffing one). There's
+also a function that reads the headers of the requested file that you
+can also change to allow/disallow more content types. 
+
+The goal was a proxy that mirrors the headers sent. One interesting note
+is that this project uses PHP's custom stream objects so that the requested
+file is not loaded in memory (or disk) at one time. The stream object prints
+its data as soon as receives it, holding on to nothing.
+
